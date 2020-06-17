@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Storage\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.Orleans.Runtime.Abstractions" Version="3.2.0" />
     <PackageReference Include="RavenDB.Client" Version="4.2.103" />
   </ItemGroup>
