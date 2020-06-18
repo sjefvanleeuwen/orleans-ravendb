@@ -17,6 +17,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Orleans.Persistence.RavenDB\Orleans.Persistence.RavenDB.csproj" />
+    <ProjectReference Include="..\RavenDB.Orleans.Test.GrainInterfaces\RavenDB.Orleans.Test.GrainInterfaces.csproj" />
+    <ProjectReference Include="..\RavenDB.Orleans.Test.Grains\RavenDB.Orleans.Test.Grains.csproj" />
   </ItemGroup>
 
 </Project>
